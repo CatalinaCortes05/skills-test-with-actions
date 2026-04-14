@@ -73,3 +73,8 @@ def test_get_nth_fibonacci_zero():
     n = 0
     result = get_nth_fibonacci(n)
     assert result == 0
+
+ def test_area_of_circle_zero_radius():
+    radius = 0
+    result = area_of_circle(radius)
+    assert result == 0
